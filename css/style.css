@@ -2,17 +2,14 @@
     /*style smartphones et petites tablettes en portrait*/
 
 
-    
+    .firstPart {
 
+        background-image: url("../images/background.png");
+        background-size: cover;
 
+        height: 100%;
 
-
-
-
-
-
-
-
+    }
 
 
 
@@ -22,3 +19,80 @@
 
 }
 
+
+body {
+
+    width: 100%;
+    margin: 0;
+
+}
+
+.landingTop {
+
+    background-image: url('../images/background.png');
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.firstPart {
+
+
+    background-color: #131429a6;
+    background-size: cover;
+
+    width: auto;
+    height: 100vh;
+    
+}
+
+.firstPart h1 {
+    
+    color: #F2BC1B;
+    
+}
+
+
+.emailPart {
+    
+    
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.email {
+
+    padding-left: 17%;
+
+}
+
+
+.circle4 {
+
+    width: 1307px;
+    height: 1307px;
+
+    border: #131429a6;
+    border-radius: 50%;
+
+    background-color: #1314298a;
+
+}
+
+.circle3 {
+
+    width: 1307px;
+    height: 1307px;
+
+    border: 2px solid #F2BC1B;
+    border-radius: 50%;
+
+    background-color: #1314298a;
+
+}
