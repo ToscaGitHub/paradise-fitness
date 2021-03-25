@@ -73,5 +73,31 @@
 
 </div>
 
+<div class="coachPart">
+
+    <div class="coachText">
+             
+        <h1 class="uk-animation-slide-bottom-small">Nos coachs sportif</h1>
+        <hr>
+        <h3 class="uk-animation-slide-top-small">Michael & Alice disponibles pour vous suivre dans vos séances et vous aider.</h3>
+            
+    </div>
+
+</div>
+
+<div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
 
 <?php require_once("includes/footer.inc.php"); ?>
