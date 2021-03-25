@@ -75,24 +75,131 @@
 
 <div class="coachPart">
 
-    <div class="coachText">
+    <div class="coachText" uk-scrollspy="target: h1, h3; cls: uk-animation-fade; delay: 200;">
              
-        <h1 class="uk-animation-slide-bottom-small">Nos coachs sportif</h1>
+        <h1 uk-scrollspy-class="uk-animation-slide-bottom-small">Nos coachs sportif</h1>
         <hr>
-        <h3 class="uk-animation-slide-top-small">Michael & Alice disponibles pour vous suivre dans vos séances et vous aider.</h3>
+        <h3 uk-scrollspy-class="uk-animation-slide-top-small">Michael & Alice disponibles pour vous suivre dans vos séances et vous aider.</h3>
             
     </div>
 
 </div>
 
-<div>
+<div class="offersPart">
+
+    <h3>Tarifs & Parrainage</h3>
+
+    <div class="allOffers">
+
+        <div class="offer offer1">
+
+            <h3>Offre 3 mois</h3>
+            <p>*Sans engagement</p>
+
+            <hr>
+
+            <h3 id="oldPrice">29,99 €</h3>
+            <i></i>
+
+            <div class="offerPrice">
+                <i class="fas fa-caret-right"></i>
+                <h3>19,99 €</h3>
+                <i class="fas fa-caret-left"></i>
+            </div>
+
+            <hr>
+
+            <div class="offerPrice2">
+                <h3>89,97 €</h3>
+                <i class="fas fa-chevron-right"></i>
+                <h3 id="scndOfferPrice2">59,97 €</h3>
+            </div>
+
+            <br>
+
+            <div class="infoOffer">
+
+                <p>Bénéficiez de <b>30€</b> de réduction pour vos trois premier mois chez nous !</p>
+            
+            </div>
+
+        </div>
 
 
+        <div class="offer offer2">
+
+            <h3>Offre 12 mois</h3>
+            <p>*Avec engagement</p>
+
+            <hr>
+
+            <h3 id="oldPrice">29,99 €</h3>
+            <i></i>
+
+            <div class="offerPrice">
+                <i class="fas fa-caret-right"></i>
+                <h3>19,99 €</h3>
+                <i class="fas fa-caret-left"></i>
+            </div>
+
+            <hr>
+
+            <div class="offerPrice2">
+                <h3>359,88 €</h3>
+                <i class="fas fa-chevron-right"></i>
+                <h3 id="scndOfferPrice2">239,88 €</h3>
+            </div>
+
+            <br>
+            <div class="infoOffer">
+
+                <p>Bénéficiez de <b>120€</b> de réduction pour un an passé chez nous !</p>
+
+            </div>
+        </div>
 
 
+        <div class="offer offer3">
 
+            <h3>Offre 24 mois</h3>
+            <p>*Avec engagement</p>
 
+            <hr>
 
+            <h3 id="oldPrice">29,99 €</h3>
+            <i></i>
+
+            <div class="offerPrice">
+                <i class="fas fa-caret-right"></i>
+                <h3>15,99 €</h3>
+                <i class="fas fa-caret-left"></i>
+            </div>
+
+            <hr>
+
+            <div class="offerPrice2">
+                <h3>719,76 €</h3>
+                <i class="fas fa-chevron-right"></i>
+                <h3 id="scndOfferPrice2">383,76 €</h3>
+            </div>
+
+            <br>
+
+            <div class="infoOffer">
+
+                <p>Bénéficiez de <b>336€</b> de réduction pour vos trois premier mois chez nous</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="infoCard">
+
+        <h3>*Si vous êtes parrainé les frais d'inscriptions seront offerts</h3>
+        <h4>Le parrain bénéficiera de -10% pendant 3 mois</h4>
+    
+    </div>
 
 </div>
 

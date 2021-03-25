@@ -34,6 +34,34 @@
 }
 
 
+@media screen and (min-width: 1280px) and (max-width: 1680px) {
+    /* style Mac 13" à 15" */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 body {
 
     width: 100%;
@@ -413,5 +441,242 @@ body {
     font-weight: 400;
 
     margin-top: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.offersPart {
+
+    background-image: url('../images/background3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+
+    padding-top: 50px;
+
+}
+
+.offersPart h3{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+
+    text-align: center;
+
+    margin-bottom: 100px;
+
+}
+
+.allOffers {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+}
+
+.offer {
+
+
+    border-radius: 30px;
+
+    width: 475px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    background-color: #F8F8F8;
+
+}
+
+
+.offer1 {
+
+    box-shadow: -25px -25px 30px black;
+
+}
+.offer2 {
+
+    box-shadow: -20px 20px 30px #0000005d;
+
+}
+.offer3 {
+
+    box-shadow: 25px 25px 30px #F2BC1B;
+
+}
+
+.offer h3 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+
+    margin-bottom: 0;
+
+
+}
+
+.offer p {
+
+    margin-top: -10px;
+    margin-bottom: 0%;
+
+}
+
+.offer hr {
+
+    width: 63px;
+
+    border: 2px solid black;
+
+    align-self: center;
+
+    opacity: 1;
+
+}
+
+.offer b {
+
+    color: #F2BC1B;
+
+}
+
+#oldPrice {
+
+    text-decoration: line-through;
+
+    margin-top: 0;
+
+}
+
+.offerPrice {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.offerPrice h3 {
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: #F2BC1B;
+
+}
+
+.offerPrice i {
+
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    color: #F2BC1B;
+
+}
+
+.offerPrice2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+
+}
+
+
+.offerPrice2 h3 {
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: black;
+
+    text-decoration: line-through;
+
+}
+
+#scndOfferPrice2 {
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    color: #F2BC1B;
+
+    text-decoration: none;
+
+}
+
+.offerPrice2 i {
+
+    font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    color: black;
+
+}
+
+.infoOffer {
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    width: 75%;
+    align-self: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+
+
+}
+
+.infoCard {
+
+    text-align: center;
+
+}
+
+.infoCard h3 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+
+    margin-top: 75px;
+    margin-bottom: 0;
+
+}
+
+.infoCard h4 {
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+
+    margin-top: 0;
 
 }
