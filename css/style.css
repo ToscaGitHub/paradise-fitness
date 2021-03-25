@@ -73,12 +73,11 @@ body {
     flex-direction: row;
 
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 
     padding-top: 5vh;
 
-    margin-left: 7vw;
-
+    margin-left: 15vw;
 }
 
 .infoTop img {
@@ -90,11 +89,19 @@ body {
 
 .infoTop p {
     
-    color: #F2BC1B;
+    color: #ffffff;
     
     font-family: 'Oswald', sans-serif;
+    font-size: 25px;
 
-    margin-left: 5px;
+    margin-left: 20px;
+
+}
+
+.infoTop i {
+    
+    font-size: 25px;
+
 
 }
 
@@ -104,6 +111,8 @@ body {
     flex-direction: row;
 
     align-items: center;
+
+    margin-left: 150px;
 
 
 }
@@ -120,6 +129,8 @@ body {
     flex-direction: row;
 
     align-items: center;
+
+    margin-left: 150px;
 
 }
 
@@ -142,10 +153,11 @@ body {
 
 .firstPart {
 
-    width: 65vw;
+    width: 30vw;
     height: 100vh;
 
-    margin-left: 7vw;
+    margin-left: 15vw;
+    margin-top: 70px;
 
     display: flex;
     flex-direction: column;    
@@ -155,9 +167,30 @@ body {
 
 .firstPart h1 {
     
-    color: #F2BC1B;
+    color: #ffffff;
     
     font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+
+}
+
+.firstPart hr {
+    
+    border: 3px solid #ffffff;
+    width: 319px;
+
+    opacity: 1;
+
+}
+
+.firstPart h3 {
+    
+    color: #ffffff;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+
+    margin-top: 5px;
 
 }
 
@@ -191,6 +224,9 @@ body {
 
     padding-left: 75px;
 
+    
+    margin-bottom: 7.5px;
+
     border: 0px solid;
     border-radius: 55px;
 
@@ -216,12 +252,16 @@ body {
     
     width: 462px;
 
+    margin-top: 7.5px;
+
     border: 0px solid;
     border-radius: 55px;
 
     background-color: #F2BC1B;
 
 }
+
+
 
 
 
@@ -247,10 +287,11 @@ body {
 .info h3 {
 
     font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+
+    margin-bottom: 50px;
 
 }
-
-
 
 
 .advantages {
@@ -265,6 +306,8 @@ body {
     width: 25px;
     height: 25px;
 
+    color: #F2BC1B;
+
 }
 
 .advantages img {
@@ -273,6 +316,7 @@ body {
     height: 25px;
 
 }
+
 
 .advantages h5 {
 
