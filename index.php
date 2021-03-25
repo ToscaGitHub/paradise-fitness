@@ -3,16 +3,16 @@
 
 <div class="landingTop">
 
-    <div class="infoTop" uk-scrollspy="target: > div; cls: uk-animation-fade;delay: 300; repeat: true">
+    <div class="infoTop" uk-scrollspy="target: img, #map, #phone; cls: uk-animation-slide-top;delay: 300; repeat: true">
         
-        <img class="uk-animation-slide-top"src="images/logo.svg" alt="logo">
+        <img uk-scrollspy="uk-animation-slide-top" src="images/logo.svg" alt="logo">
         
-        <div class="uk-animation-slide-top" id="map">
+        <div uk-scrollspy="uk-animation-slide-top" id="map">
             <i class="fas fa-map-marked-alt map"></i>
             <p>6 Avenue des prés, Annecy</p>
         </div>
             
-        <div class="uk-animation-slide-top" id="phone">
+        <div uk-scrollspy="uk-animation-slide-top" id="phone">
             <i class="fas fa-phone-alt phone"></i>
             <p>+33 6 58 22 11 47</p>
         </div>
