@@ -1,14 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+
+
+
+
+
 @media screen and (min-width: 321px) and (max-width: 799px) {
     /*style smartphones et petites tablettes en portrait*/
 
 
-    .firstPart {
 
-        background-image: url("../images/background.png");
+    .landingTop {
+
+        background-image: url('../images/background.png');
         background-size: cover;
-
-        height: 100%;
-
+        background-repeat: no-repeat;
+    
+        height: 100vh;
+    
+        /* display: flex;
+        flex-direction: row; */
+    
     }
 
 
@@ -27,72 +41,253 @@ body {
 
 }
 
+
 .landingTop {
 
     background-image: url('../images/background.png');
     background-size: cover;
 
+    height: 100vh;
+
+    /* display: flex;
+    flex-direction: row; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infoTop {
+
     display: flex;
     flex-direction: row;
 
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-top: 5vh;
+
+    margin-left: 7vw;
+
 }
+
+.infoTop img {
+
+    width: 100px;
+    height: 72px;
+
+}
+
+.infoTop p {
+    
+    color: #F2BC1B;
+    
+    font-family: 'Oswald', sans-serif;
+
+    margin-left: 5px;
+
+}
+
+#map {
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+
+}
+
+.map {
+
+    color: #F2BC1B;
+
+}
+
+#phone {
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.phone {
+
+    color: #F2BC1B;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .firstPart {
 
-
-    background-color: #131429a6;
-    background-size: cover;
-
-    width: auto;
+    width: 65vw;
     height: 100vh;
-    
+
+    margin-left: 7vw;
+
+    display: flex;
+    flex-direction: column;    
+
 }
+
 
 .firstPart h1 {
     
     color: #F2BC1B;
     
+    font-family: 'Oswald', sans-serif;
+
 }
 
+.firstPart a {
 
-.emailPart {
-    
-    
+    color: #F2BC1B;
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.firstPart p {
+
+    color: #F2BC1B;
+
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.firstPart form {
+
     display: flex;
     flex-direction: column;
-
 
 }
 
 
 .email {
 
-    padding-left: 17%;
+    width: 462px;
+
+    padding-left: 75px;
+
+    border: 0px solid;
+    border-radius: 55px;
+
+}
+
+.emailIcon {
+    
+    margin-left: 20px;
+
+}
+
+#email {
+    
+    background-color: #ffffff;
+
+}
+
+.firstPart form input {
+
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    
+    width: 462px;
+
+    border: 0px solid;
+    border-radius: 55px;
+
+    background-color: #F2BC1B;
 
 }
 
 
-.circle4 {
 
-    width: 1307px;
-    height: 1307px;
 
-    border: #131429a6;
-    border-radius: 50%;
 
-    background-color: #1314298a;
+
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+
+    height: 275px;
+
+    background: white;
 
 }
 
-.circle3 {
+.info h3 {
 
-    width: 1307px;
-    height: 1307px;
+    font-family: 'Oswald', sans-serif;
 
-    border: 2px solid #F2BC1B;
-    border-radius: 50%;
+}
 
-    background-color: #1314298a;
+
+
+
+.advantages {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.advantages i {
+
+    width: 25px;
+    height: 25px;
+
+}
+
+.advantages img {
+
+    width: 25px;
+    height: 25px;
+
+}
+
+.advantages h5 {
+
+    font-family: 'Oswald', sans-serif;
+
+    margin-top: 5px;
+    margin-bottom: 0px;
+
+}
+
+.advantages p {
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+
+    margin-top: 0px;
 
 }
