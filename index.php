@@ -45,23 +45,23 @@
 
 <div class="info">
 
-    <h3>NOS AVANTAGES</h3>
+    <h3 class="uk-animation-slide-top">NOS AVANTAGES</h3>
 
-    <div class="advantages">
+    <div class="advantages" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 200">
         
-        <div>
+        <div uk-scrollspy-class="uk-animation-slide-top" class="info1">
             <i class="fas fa-calendar-check"></i>
             <h5>Ouvert de 6h à 00h</h5>
             <p>du Lundi au Dimanche</p>
         </div>
         
-        <div>
+        <div uk-scrollspy-class="uk-animation-slide-bottom" class="info2">
             <i class="fas fa-credit-card"></i>
             <h5>Sans engagement</h5>
             <p>résiliation possible à tout moment</p>
         </div>
         
-        <div>
+        <div uk-scrollspy-class="uk-animation-slide-top" class="info3">
             <img src="images/icons/coach.svg" alt="coach Icon" class="coach">
             <h5>Coachs Sportifs</h5>
             <p>du Lundi au Samedi</p>
