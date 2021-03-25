@@ -26,7 +26,7 @@
         <hr>
         <h3 class="uk-animation-slide-top-small">Un cours d'essai gratuit</h3>
             
-        <form  class="uk-animation-slide-left" action="POST">
+        <form  class="uk-animation-slide-left" action="" method="POST">
                 
             <div class="uk-inline mail">
                 <span class="uk-form-icon emailIcon" uk-icon="icon: mail; ratio: 2"></span>
@@ -37,6 +37,13 @@
             <input type="submit" value="S'INSCRIRE !">
                 
         </form>
+
+        <div class="social" uk-scrollspy="target: > a; cls: uk-animation-fade; repeat: true">
+
+            <a href="https://www.instagram.com/fitness.paradise_annecy/?hl=fr" target="_blank"  uk-scrollspy-class="uk-animation-scale-up"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/FitnessParadise74" target="_blank" uk-scrollspy-class="uk-animation-scale-up"><i class="fab fa-facebook-square"></i></a>
+
+        </div>
             
     </div>
         
@@ -89,9 +96,9 @@
 
     <h3>Tarifs & Parrainage</h3>
 
-    <div class="allOffers">
+    <div class="allOffers" uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
 
-        <div class="offer offer1">
+        <div class="offer offer1" uk-scrollspy-class="uk-animation-slide-left">
 
             <h3>Offre 3 mois</h3>
             <p>*Sans engagement</p>
@@ -126,7 +133,7 @@
         </div>
 
 
-        <div class="offer offer2">
+        <div class="offer offer2" uk-scrollspy-class="uk-animation-slide-left">
 
             <h3>Offre 12 mois</h3>
             <p>*Avec engagement</p>
@@ -159,7 +166,7 @@
         </div>
 
 
-        <div class="offer offer3">
+        <div class="offer offer3" uk-scrollspy-class="uk-animation-slide-left">
 
             <h3>Offre 24 mois</h3>
             <p>*Avec engagement</p>
@@ -203,7 +210,52 @@
 
 </div>
 
+<div class="footer">
 
+    <div class="footerPart1">
+
+        <img src="images/logo.svg" alt="logo footer">
+        <div class="footerPart1DIV">
+        <i class="fas fa-map-marked-alt mapFooter"></i>
+            <p>6 Avenue des prés, Annecy</p>
+        </div>
+        <div class="footerPart1DIV">
+            <i class="fas fa-phone-alt phoneFooter"></i>
+            <p>+33 6 58 22 11 47</p>
+        </div>
+        <div class="footerPart1DIV">
+            <i class="fas fa-envelope mailFooter"></i>
+            <p>fitnessparadise@gmail.com</p>
+        </div>
+        
+    </div>
+    <span class="separation"></span>
+    <div class="footerPart2">
+
+        <h3>Fitness Paradise</h3>
+        <p>Accueil</p>
+        <p>Avantages</p>
+        <p>Tarifs</p>
+
+    </div>
+    <span class="separation"></span>
+    <div class="footerPart3">
+
+        <h3>Nous Suivre</h3>
+        <div>
+            <a href="https://www.facebook.com/FitnessParadise74" target="_blank"  ><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/fitness.paradise_annecy/?hl=fr" target="_blank"  ><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Recevez nos actualités</p>
+        <form action="" method="POST">
+            <input type="email" class="footerMail" placeholder="votre email">
+            <input type="submit" value="OK" class="footerSub">
+        </form>
+
+    </div>
+
+
+</div>
 
 
 
